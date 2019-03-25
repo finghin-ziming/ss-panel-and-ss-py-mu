@@ -28,11 +28,14 @@ wget -N --no-check-certificate https://raw.githubusercontent.com/mmmwhy/ss-panel
 默认密码：91vps
 
 ### bbr plus加速
-···
+
+```
 #执行BBR PLUS修正版一键脚本
 wget -N --no-check-certificate "https://raw.githubusercontent.com/chiakge/Linux-NetSpeed/master/tcp.sh" && chmod +x tcp.sh && ./tcp.sh
-···
+```
+
 ![一键安装加速管理脚本](https://pic.cobcmw.com/images/2019/02/22/bbr-v1.2.1.png)
+
 如上图所示，先输入2，安装 BBRplus版内核，安装完之后会提示重启系统，重启之后再运行脚本，输入7，使用BBRplus版加速，一键安装，很方便，该脚本可以多次运行，当看到提示：当前状态：已安装 BBRplus加速内核，BBRplus启动成功，表示加速成功。
 
 # 关于
